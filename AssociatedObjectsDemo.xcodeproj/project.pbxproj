@@ -14,6 +14,7 @@
 		216998431B43D2BE00AA77D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 216998421B43D2BE00AA77D3 /* Images.xcassets */; };
 		216998461B43D2BE00AA77D3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 216998441B43D2BE00AA77D3 /* LaunchScreen.xib */; };
 		216998521B43D2BE00AA77D3 /* AssociatedObjectsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 216998511B43D2BE00AA77D3 /* AssociatedObjectsDemoTests.m */; };
+		2169985D1B43D6F300AA77D3 /* UIViewController+AssociatedObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 2169985C1B43D6F300AA77D3 /* UIViewController+AssociatedObjects.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		2169984B1B43D2BE00AA77D3 /* AssociatedObjectsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssociatedObjectsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		216998501B43D2BE00AA77D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		216998511B43D2BE00AA77D3 /* AssociatedObjectsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssociatedObjectsDemoTests.m; sourceTree = "<group>"; };
+		2169985B1B43D6F300AA77D3 /* UIViewController+AssociatedObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AssociatedObjects.h"; sourceTree = "<group>"; };
+		2169985C1B43D6F300AA77D3 /* UIViewController+AssociatedObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AssociatedObjects.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				2169983A1B43D2BE00AA77D3 /* AppDelegate.m */,
 				2169983C1B43D2BE00AA77D3 /* ViewController.h */,
 				2169983D1B43D2BE00AA77D3 /* ViewController.m */,
+				2169985B1B43D6F300AA77D3 /* UIViewController+AssociatedObjects.h */,
+				2169985C1B43D6F300AA77D3 /* UIViewController+AssociatedObjects.m */,
 				2169983F1B43D2BE00AA77D3 /* Main.storyboard */,
 				216998421B43D2BE00AA77D3 /* Images.xcassets */,
 				216998441B43D2BE00AA77D3 /* LaunchScreen.xib */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2169983E1B43D2BE00AA77D3 /* ViewController.m in Sources */,
+				2169985D1B43D6F300AA77D3 /* UIViewController+AssociatedObjects.m in Sources */,
 				2169983B1B43D2BE00AA77D3 /* AppDelegate.m in Sources */,
 				216998381B43D2BE00AA77D3 /* main.m in Sources */,
 			);
